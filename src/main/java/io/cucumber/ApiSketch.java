@@ -30,7 +30,7 @@ public class ApiSketch {
 
     @Glue
     public static StepDefinitions doubleLambdaWithMethodReference = using(World.class)
-            .step("{int} gherkin(s) and {int} zukini(s)", (World world) -> world::setGherkins);
+            .step("{int} gherkin(s) and {int} zukini(s)", (World world) -> world::setGherkinsAndZukinis);
 
     /**
      * Advantages:
